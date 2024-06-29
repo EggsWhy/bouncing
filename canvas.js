@@ -67,16 +67,16 @@ class Circle {
 function randomColour() {
     return (
       "rgba(" +
-      Math.round(Math.random() * 250) +
+      Math.round(Math.random() * 255) +
       "," +
-      Math.round(Math.random() * 250) +
+      Math.round(Math.random() * 255) +
       "," +
-      Math.round(Math.random() * 250) +
+      Math.round(Math.random() * 255) +
       "," +
       Math.ceil(Math.random() * 10) / 10 +
       ")"
     );
-  }
+}
 
 let circleArray = [];
 
